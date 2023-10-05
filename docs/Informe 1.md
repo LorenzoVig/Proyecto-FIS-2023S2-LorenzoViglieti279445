@@ -77,8 +77,141 @@ Como dicho anteriormente la rama main debe contener exclusivamente el código fi
 
 ## Elicitación
 
+### Analisis de GUI
+#### Autogestion circulo catolico
+Base los perfiles de las mascotas registradas en la autogestion de mi mutualista, el circulo catolico, es un sistema muy simple que permite con facilidad agendar fechas de consultas, ver que fechas hay agendadas y ver estudios anteriores.
+
+Esto se hace mediante paginas separadas lo cual me parece un poco redundadnte, la pagina para agendar fechas cuenta con forms para especificar que medico se desea consultar seguido por un calendario y un formulario para especificar que dia y hora se desea agendar. En otra pagina se muestran las reservas presentes de el usuario en una lista simple ordenados por fecha mas cercana. Finalmente los estudios anteriores se encuentran en otra pagina que lista como pdf todos los estudios hechos hasta la fecha.
+
+#### Petfinder
+Petfinder.com es un sitio americano que permite buscar una lista de animales en adopcion en la zona de el usuario.
+
+El sitio pide que especie de animal se quiere adoptar y la locacion o codigo zip del usuario para listar todas las mascotas de esa especie en adopcion en la zon del usuario. Se presenta una lista de cards con los nombres, edades, razas y la distancia del la zona donde esta la mascota, hay multiples filtros en el sitio que permiten especificar desde edad y tamañp hasta si son rescatados o no. 
+
+### Entrevista a usuario prospectivo
+Entrevista con Victoria Martínez, estudiante universitaria de comunicación.
+
+- cuantas y que mascotas tiene?
+"Tengo 4 gatos 2 de ellos rescatados"
+-las lleva al veterinario a menudo?
+"Los llevo al veterinario cuando se presenta un problema de salud o noto algo fuera de lo normal."
+-como maneja las consultas al veterinario? Tiende a agendarse antes de ir?
+"No, los tiendo a llevar cuando algun problema aparece. No agendamos una cita, simplemente vamos."
+-cuando se les receta medicaciones a sus mascotas como controla el consumo de ellas?
+"Para controlar la medicación seguimos las instrucciones del veterinario, 
+-si se le ofreciese una solucion para el control de salud de su mascota online, similar al de una mutualista, lo usaria?
+"No la usaríamos, porque como dijimos vamos a la veterinaria cuando pasa algo, entonces no reservamos. Pero en si puede que las personas que si suele mandar a sus mascotas a una revisión les sea útil"
+-que valoraria de una solucion de este tipo?
+
+### User Personas
+
 ## Especificación
+
+### Requerimientos Funcionales y No Funcionales
+
+###### RF1 - Mascotas
+El sistema deberá permitir acceder a una lista de todas las mascotas registradas del usuario, detallando:
+* Nombre de la mascota
+* Historia clinica de la mascota
+* Proxima fecha de chequeo/Vacunacion
+* Medicaciones asignadas a la mascota y la cantidad de dosis
+
+###### RF2 - Agendar Horas con Veterinario
+Se debera mediante formularios en los perfiles de cada mascota agendar una hora con el veterinario para un chequeo con la mascota especificada.
+* Debera haber un calendario que permita seleccionar las fechas
+* Un combo que permita seleccionar las hora de el chequeo.
+
+###### RF3 - Modificacion de registro
+El sistema debe permitir la modificación de la historia clinica y los medicamentos recetados de las mascotas registradas por el veterinario.
+
+###### RF4 - Proxima fecha actualizada
+Despues de reservar una hora con el veterinario la proxima fecha de chequeo/vacunacion debe actualizarse de inmediato.
+
+###### RF5 - Registro de Mascotas
+Se debera poder registrar mascotas al sistema mediante un tab en la pagina de gestion de mascotas.
+* Debe haber forms para el nombre, sexo, especie y raza requeridos para registrar a la mascota.
+* Debe haber dos campos opcionales para registrar la historia clinica de la mascota y otro para registrar alergias y otras aflicciones de la mascota.
+
+###### RF6 - Mascotas en adopcion
+Debera haber un listado de las mascotas para adoptar en el sitio, detallando:
+* Nombre de la mascota
+* Sexo de la mascota
+* Especie de la mascota
+* Raza de la mascota
+
+###### RF7 - Solicitud de adopcion
+Los perfiles de mascotas en adopcion deben de contar con un boton en cada uno que abra una pestaña nueva a un chat de whatsapp para gestionar la adopcion de la mascota.
+
+###### RF8 - Filtrado Animales
+El sistema debera permitir el filtrar las mascotas en adopcion por especie, raza, sexo y edad de estas.
+
+###### RNF1 - Responsiveness
+El sistema deberá adaptarse y mostrarse sin errores en las pantallas de todos los telefonos mobiles modernos tanto como en pantallas de computadora.
+
+###### RNF2 - Navegadores y Sistemas Operativos
+El sistema deberá funcionar al menos en los siguientes navegadores y versiones:
+
+* Google Chrome >= 102
+* Firefox: >= 103
+* Safari >= 14
+* Opera >= 73
+* Microsoft Edge >= 95
+
+Y deberá funcionar al menos en los siguientes sistemas operativos y versiones:
+
+* iOS >= 15
+* Android >= 8
+* Microsoft Windows >= 10
+* macOS >= 11
+
+###### RNF3 - Online
+Para acceder a la aplicación, visualizar y solicitar la adopcion de un animal, getionar las horas con el veterinario y ver los perfiles de animales registrados, el sistema operativo o navegador del usuario debe de contar con conexión a Internet.
+
+###### RNF4 - Tiempos de respuesta
+Despues de registrar una mascota o reservar una hora con el veterinario, el ususario debe ver el cambio en el sitio en menos de 10 segundos.
+
+###### RNF5 - Numero de clicks
+El usuario debera poder acceder a todas las funcionalidades de el sistema en menos de 5 clicks cada una.
+
+### User Stories
+####ID: #1
+
+Título: Registro de Mascota
+
+Narrativa: Como dueño de mascotas atareado quiero tener un registro al día de mi mascotas, para poder visulalizar y corroborar con facilidad que fechas debe asistir al veterinario, que medicaciones se le han recetado y su historia clinica por si se presenta la ocacion de necesitarla.
+Criterios de Aceptación:
+
+○ Cada usuario debe de tener registros actualizados de sus mascotas en los perfiles de cada una.
+
+ID: #2
+
+Titulo: Filtrado Animales
+
+Narrativa: Como dueño de mascotas prospectivo quiero filtrar los animales en adopcion por especie, raza y edad para poder ver cuales se adaptarian mejor a mi hogar.
+
+Criterios de Aceptación:
+
+○ Puede filtrarse la lista de animales en adopcion por especie, raza y edad.
+
+ID: #3
+
+Titulo: Ingresar mascotas al sistema
+
+Narrativa: Como dueño de multiples mascotas quiero poder ver a simple vista los perfiles de todas mis mascotas para corroborar que medicaciones fueron recetadas a ellas.
+
+Criterios de Aceptación:
+
+○ Los usuarios deben poder registrar multiples mascotas al sistema sin errores y poder visualizarlos de manera facil.
+
+ID: #4
+
+Titulo: Acceso de Historias clinicas
+
+Narrativa: Como veterinario quiero ver 
+
 
 # 3.Informe académico 1
 
 ## Técnicas aplicadas y aprendizajes
+Se utilizo bastante los comandos para git, asegurando un ambiente de desarollo organizado, lo cual facilito la realizacion de las tareas. Especificamente se aprecia como se puede lograr hacer progreso en la tarea sin importar en la computadora que se realize.
+Las tecnicas de elicitacion sirvieron de buena base para entender mejor como plantear el diseño del sistema y las de especificacion dan una muy buena lista de que va a ser necesario desarollar y mejorar para la sagunda entrega.
