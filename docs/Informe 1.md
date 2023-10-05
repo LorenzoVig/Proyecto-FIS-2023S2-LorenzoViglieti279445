@@ -115,8 +115,12 @@ Entrevista con Victoria Martínez, estudiante universitaria de comunicación.
 Esta entrevista solidifico la necesidad de asegurarnos que nuestro sistema sea muy simple y de uso muy fácil y con funcionalidades de utilidad general para poder lograr que dueños de mascotas menos constantes con el cuidado de sus animales puedan sacarle uso.
 
 ### User Personas
+!(docs\User Personas\User Persona Marcos.PNG)
+
+!(docs\User Personas\user persona 2.PNG)
 
 ### Modelo Conceptual del Problema
+!(docs\Modelo Conceptual\Modelo Conceptual Problema.PNG)
 
 ## Especificación
 
@@ -246,6 +250,18 @@ Actor: Usuario
 4. El sistema recibe la fecha de el calendario y la hora de el form y las envia al sistema para que quede agendado de inmediato se actualiza el estado de "Proxima fecha agendada"
 
 Cursos alternativos: 1.1: El usuario no tiene mascotas registradas: al abrir "Gestion de mascotas" salta un error diciendo "No hay mascotas registradas en el sistema" y se abre el tab para registrar una mascota. 3.1: Si el usuario seleccina una fecha o hora invalida, no se habilita el botón de agendarse
+
+## Bocetos IU
+### Lista mascotas a adoptar
+!(docs\Bocetos IU\Mascotas en Adopcion.png)
+### Menu Hamburgesa abierto
+!(docs\Bocetos IU\Hamburger Abierto.png)
+### Perfil de mascota a adoptar
+!(docs\Bocetos IU\Perfil Mascota a Adoptar.png)
+### Registro de mascotas
+!(docs\Bocetos IU\Registro Mascotas.png)
+### Gestion de mascotas
+!(docs\Bocetos IU\Mascotas en Sistema.png)
 # 3. Informe académico 1
 
 ## Técnicas aplicadas y aprendizajes
