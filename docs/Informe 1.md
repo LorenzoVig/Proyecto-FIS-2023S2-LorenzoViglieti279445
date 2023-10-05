@@ -115,12 +115,12 @@ Entrevista con Victoria Martínez, estudiante universitaria de comunicación.
 Esta entrevista solidifico la necesidad de asegurarnos que nuestro sistema sea muy simple y de uso muy fácil y con funcionalidades de utilidad general para poder lograr que dueños de mascotas menos constantes con el cuidado de sus animales puedan sacarle uso.
 
 ### User Personas
-!(docs\User Personas\User Persona Marcos.PNG)
+![UserPersonaMarcos](User Personas\User Persona Marcos.PNG)
 
-!(docs\User Personas\user persona 2.PNG)
+![UserPersonaJuliana](User Personas\user persona 2.PNG)
 
 ### Modelo Conceptual del Problema
-!(docs\Modelo Conceptual\Modelo Conceptual Problema.PNG)
+![ModeloConceptualProblema](Modelo Conceptual\Modelo Conceptual Problema.PNG)
 
 ## Especificación
 
@@ -253,15 +253,15 @@ Cursos alternativos: 1.1: El usuario no tiene mascotas registradas: al abrir "Ge
 
 ## Bocetos IU
 ### Lista mascotas a adoptar
-!(docs\Bocetos IU\Mascotas en Adopcion.png)
+![Boceto1](Bocetos IU\Mascotas en Adopcion.png)
 ### Menu Hamburgesa abierto
-!(docs\Bocetos IU\Hamburger Abierto.png)
+![Boceto2](Bocetos IU\Hamburger Abierto.png)
 ### Perfil de mascota a adoptar
-!(docs\Bocetos IU\Perfil Mascota a Adoptar.png)
+![Boceto3](Bocetos IU\Perfil Mascota a Adoptar.png)
 ### Registro de mascotas
-!(docs\Bocetos IU\Registro Mascotas.png)
+![Boceto4](Bocetos IU\Registro Mascotas.png)
 ### Gestion de mascotas
-!(docs\Bocetos IU\Mascotas en Sistema.png)
+![Boceto5](Bocetos IU\Mascotas en Sistema.png)
 # 3. Informe académico 1
 
 ## Técnicas aplicadas y aprendizajes
