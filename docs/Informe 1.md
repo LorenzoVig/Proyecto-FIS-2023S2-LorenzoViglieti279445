@@ -241,11 +241,13 @@ Criterios de aceptación:
 | Actor | Usuario |
 | Acción de Actor |   Acción de Sistema   |
 |-----------------------------------------|
-| 1. Selecciona "Gestión de Mascotas" en página inicial | 2. El sistema llama a la lista de mascotas del usuario y genera cards con la información de cada uno | 
-| 3. Selecciona en el card de la mascota deseada una fecha en el calendario, una hora en form y da click en el botón de agendarse | 4. El sistema recibe la fecha del calendario y la hora de el form y las envía al sistema para que quede agendado de inmediato se actualiza el estado de "próxima fecha agendada"|
-|Cursos alternativos: 1.1: El usuario no tiene mascotas registradas: al abrir "gestión de mascotas" salta un error diciendo "No hay mascotas registradas en el sistema" y se abre el tab para registrar una mascota. 3.1: Si el usuario selecciona una fecha o hora invalida, no se habilita el boto de agendarse|
+| 1. Selecciona "Gestión de Mascotas" en página inicial | 2. El sistema llama a la lista de mascotas del usuario y genera cards con la información de cada uno |
+| 3. Selecciona en el card de la mascota deseada una fecha en el calendario, una hora en form y da click en el botón de agendarse | 4. El sistema recibe la f|
+|Cursos alternativos: 1.1: El usuario no tiene mascotas registradas: al abrir "gestión de mascotas" salta un error diciendo "No hay mascotas registradas en el sistema" y |
 # 3. Informe académico 1
 
 ## Técnicas aplicadas y aprendizajes
 Se utilizo bastante los comandos para git, asegurando un ambiente de desarrollo organizado, lo cual facilito la realización de las tareas. Específicamente se aprecia como se puede lograr hacer progreso en la tarea sin importar en la computadora que se realice.
 Las técnicas de elicitacion sirvieron de buena base para entender mejor como plantear el diseño del sistema y las de especificación dan una muy buena lista de qué va a ser necesario desarrollar y mejorar para la segunda entrega.
+echa del calendario y la hora de el form y las envía al sistema para que quede agendado de inmediato se actualiza el estado de "próxima fecha agendada"
+se abre el tab para registrar una mascota. 3.1: Si el usuario selecciona una fecha o hora invalida, no se habilita el boto de agendarse
