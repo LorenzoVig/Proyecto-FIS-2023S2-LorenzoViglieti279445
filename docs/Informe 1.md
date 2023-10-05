@@ -115,12 +115,12 @@ Entrevista con Victoria Martínez, estudiante universitaria de comunicación.
 Esta entrevista solidifico la necesidad de asegurarnos que nuestro sistema sea muy simple y de uso muy fácil y con funcionalidades de utilidad general para poder lograr que dueños de mascotas menos constantes con el cuidado de sus animales puedan sacarle uso.
 
 ### User Personas
-![UserPersonaMarcos](User Personas\User Persona Marcos.PNG)
+![UserPersonaMarcos](https://github.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/blob/informe_git/docs/User%20Personas/User%20Persona%20Marcos.PNG?raw=true)
 
-![UserPersonaJuliana](User Personas\user persona 2.PNG)
+![UserPersonaJuliana](https://github.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/blob/informe_git/docs/User%20Personas/user%20persona%202.PNG?raw=true)
 
 ### Modelo Conceptual del Problema
-![ModeloConceptualProblema](Modelo Conceptual\Modelo Conceptual Problema.PNG)
+![ModeloConceptualProblema](https://github.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/blob/informe_git/docs/Modelo%20Conceptual/Modelo%20Conceptual%20Problema.PNG?raw=true)
 
 ## Especificación
 
@@ -253,15 +253,15 @@ Cursos alternativos: 1.1: El usuario no tiene mascotas registradas: al abrir "Ge
 
 ## Bocetos IU
 ### Lista mascotas a adoptar
-![Boceto1](Bocetos IU\Mascotas en Adopcion.png)
+![Boceto1](https://github.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/blob/informe_git/docs/Bocetos%20IU/Mascotas%20en%20Adopcion.png?raw=true)
 ### Menu Hamburgesa abierto
-![Boceto2](Bocetos IU\Hamburger Abierto.png)
+![Boceto2](https://raw.githubusercontent.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/informe_git/docs/Bocetos%20IU/Hamburger%20Abierto.png)
 ### Perfil de mascota a adoptar
-![Boceto3](Bocetos IU\Perfil Mascota a Adoptar.png)
+![Boceto3](https://github.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/blob/informe_git/docs/Bocetos%20IU/Perfil%20Mascota%20a%20Adoptar.png?raw=true)
 ### Registro de mascotas
-![Boceto4](Bocetos IU\Registro Mascotas.png)
+![Boceto4](https://github.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/blob/informe_git/docs/Bocetos%20IU/Registro%20Mascotas.png?raw=true)
 ### Gestion de mascotas
-![Boceto5](Bocetos IU\Mascotas en Sistema.png)
+![Boceto5](https://github.com/LorenzoVig/Proyecto-FIS-2023S2-LorenzoViglieti279445/blob/informe_git/docs/Bocetos%20IU/Mascotas%20en%20Sistema.png?raw=true)
 # 3. Informe académico 1
 
 ## Técnicas aplicadas y aprendizajes
