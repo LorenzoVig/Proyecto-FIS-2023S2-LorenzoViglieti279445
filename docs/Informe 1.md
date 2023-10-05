@@ -92,18 +92,31 @@ El sitio pide que especie de animal se quiere adoptar y la locacion o codigo zip
 Entrevista con Victoria Martínez, estudiante universitaria de comunicación.
 
 - cuantas y que mascotas tiene?
+
 "Tengo 4 gatos 2 de ellos rescatados"
+
 -las lleva al veterinario a menudo?
+
 "Los llevo al veterinario cuando se presenta un problema de salud o noto algo fuera de lo normal."
+
 -como maneja las consultas al veterinario? Tiende a agendarse antes de ir?
+
 "No, los tiendo a llevar cuando algun problema aparece. No agendamos una cita, simplemente vamos."
+
 -cuando se les receta medicaciones a sus mascotas como controla el consumo de ellas?
-"Para controlar la medicación seguimos las instrucciones del veterinario, 
+
+"Para controlar la medicación seguimos las instrucciones del veterinario, tiendo a anotarlas en las notas del celular."
+
 -si se le ofreciese una solucion para el control de salud de su mascota online, similar al de una mutualista, lo usaria?
-"No la usaríamos, porque como dijimos vamos a la veterinaria cuando pasa algo, entonces no reservamos. Pero en si puede que las personas que si suele mandar a sus mascotas a una revisión les sea útil"
--que valoraria de una solucion de este tipo?
+
+"No la usaríamos, porque como dijimos vamos a la veterinaria cuando pasa algo, entonces no reservamos. Pero en si veo que tenga mucha utilidad para personas que lleven a sus mascotas a el veterinario mas a menudo."
+
+##### Conclusion
+Esta entrevista solidifico la necesidad de asgurarnos que nuestro sistema sea muy simple y de uso muy facil y con funcionalidades de utilidad general para poder lograr que dueños de mascotas menos constantes con el cuidado de sus animales puedan sacarle uso.
 
 ### User Personas
+
+### Modelo Conceptual del Problema
 
 ## Especificación
 
@@ -174,7 +187,7 @@ Despues de registrar una mascota o reservar una hora con el veterinario, el usus
 El usuario debera poder acceder a todas las funcionalidades de el sistema en menos de 5 clicks cada una.
 
 ### User Stories
-####ID: #1
+#### ID: #1
 
 Título: Registro de Mascota
 
@@ -183,7 +196,7 @@ Criterios de Aceptación:
 
 ○ Cada usuario debe de tener registros actualizados de sus mascotas en los perfiles de cada una.
 
-ID: #2
+#### ID: #2
 
 Titulo: Filtrado Animales
 
@@ -193,7 +206,7 @@ Criterios de Aceptación:
 
 ○ Puede filtrarse la lista de animales en adopcion por especie, raza y edad.
 
-ID: #3
+#### ID: #3
 
 Titulo: Ingresar mascotas al sistema
 
@@ -203,13 +216,35 @@ Criterios de Aceptación:
 
 ○ Los usuarios deben poder registrar multiples mascotas al sistema sin errores y poder visualizarlos de manera facil.
 
-ID: #4
+#### ID: #4
 
 Titulo: Acceso de Historias clinicas
 
-Narrativa: Como veterinario quiero ver 
+Narrativa: Como veterinario quiero ver las hisorias clinicas de las mascotas que se atienden conmigo para poder saber de tratamientos anteriores y que medicaciones se les fueron dados para saber como mejor atenderlos.
 
+Criterios de Aceptacion:
 
+○ Las historias clinicas de los animales deben ser de facil acceso y modificacion, ademas de estar en fecha.
+
+#### ID: #5
+
+Titulo: Contacto para adopcion
+
+Narrativa: Como dueño de mascotas prospectivo quiero poder coordinar por whatsapp una fecha para conocer y decidir finalmente si voy a adoptar al animal elegido.
+Criterios de Aceptacion:
+
+○ La lista de animales en adopcion debe estar vinculada al whatsapp de el centro de adopcion para facilitar el uso de los usuarios.
+
+## Use Cases
+
+| Nombre          |    Visualizar lista de mascotas      |
+|-----------------|--------------------------------------|
+| Actor           |                       |
+|-----------------|--------------------------------------|
+| Accion de Actor |   Accion de Sistema   |
+| Preciso        | Si  | Si  | Si  | Si   | 
+| Verificable    | Si  | Si  | Si  | Si   |
+| Prioritizado   | Si  | Si  | Si  | Si   |
 # 3.Informe académico 1
 
 ## Técnicas aplicadas y aprendizajes
